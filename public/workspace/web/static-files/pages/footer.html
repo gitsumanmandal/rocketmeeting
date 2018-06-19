@@ -1,0 +1,14 @@
+<nav class="navbar navbar-expand-sm app-header-div navbar-dark fixed-bottom" ng-controller="myCtrlFooter">
+    <div class="col-4 col-sm-4">
+        <div ng-if="isContact" class="left-bar bar-selected"></div>
+        <a class="app-header-title" href="#!contact" ng-click="showContact()">Contacts</a>
+    </div>
+    <div class="col-4 col-sm-4">
+            <div ng-if="isCreate" class="bar-selected"></div>
+        <a class="app-header-title" href="#!create" ng-click="showCreate()">Create</a>
+    </div>
+    <div class="col-4 col-sm-4">
+            <div ng-if="isReminder" class="right-bar bar-selected"></div>
+        <a class="app-header-title" href="#!reminder" ng-click="showReminder()">Reminder</a>
+    </div>
+</nav>

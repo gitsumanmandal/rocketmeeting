@@ -1,0 +1,135 @@
+<div ng-controller="myCtrlTest">
+  
+  <div class="row info-section">
+    <div class="col-6 info-div">
+      <p class="info-label">Candidate name : <b>Suman Mandal</b></p>
+      <p class="info-label">Cadidate ID : <b>00111056610</b></p>
+      <p class="info-label">Subject : <b>Numericals</b></p>
+    </div>
+    <div class="col-2 info-div">
+      <p class="timeClass">Time Left</p>
+      <p class="timer-class" id="watch"></p>
+    </div>
+    <div class="col-4 info-div"></div>
+  </div>
+        
+  <div class="row apti-section">
+    <div class="col-8 scroll-class">
+      <img class="fullWidht" src="../../../questions/free/mcq/mcq1.png"></img>
+      <form action="">
+        <input type="radio" name="answer" ng-model='selectedOption' value="A" ng-change='newValue(selectedOption)' />A
+        <input type="radio" name="answer" ng-model='selectedOption' value="B" ng-change='newValue(selectedOption)'/>B
+        <input type="radio" name="answer" ng-model='selectedOption' value="C" ng-change='newValue(selectedOption)'/>C
+        <input type="radio" name="answer" ng-model='selectedOption' value="D" ng-change='newValue(selectedOption)'/>D
+      </form>
+    </div>
+    <div class="col-4 scroll-class">
+      <div class="index-header">Question Index</div>
+      <div class="info-div index-div">
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+        <button class="index">01</button>
+      </div>
+    </div>
+  </div>
+        
+  <div class="row">
+    <div class="col-8 button-section">
+      <button class="navigation-button-exam">Submit & Back</button>
+      <button class="review-button-exam">Mark for Review</button>
+      <button class="reset-button-exam" ng-click=resetResponse()>Reset Response</button>
+      <button class="navigation-button-exam">Submit & Next</button>
+    </div>
+    <div class="col-4 button-section">
+      <button class="submit-button-exam">Save & Finish</button>
+    </div>
+  </div>
+  
+</div>

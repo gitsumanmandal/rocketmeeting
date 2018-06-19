@@ -1,0 +1,34 @@
+<div class="contact-body" ng-controller="myCtrlContactAdd">
+        <div class="">
+                <div class="form-group">
+                        <input type="text" class="form-control contact-input" id="title" placeholder="Meeting Title" name="title" />
+                </div>
+                <div class="form-group">
+                        <input type="text" class="form-control contact-input" id="location" placeholder="Location" name="location" />
+                </div>
+                <div class="form-group">
+                        <!-- <input type="date" class="form-control contact-input" id="dob" placeholder="Date of birth" name="dob" /> -->
+                        <input class="form-control contact-input" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="meetingdate" placeholder="Date of meeting"
+                                name="meetingdate">
+
+                </div>
+                <div class="form-group">
+                        <textarea rows="5" class="form-control contact-input" id="description" placeholder="Description" name="description"></textarea>
+                </div>
+                <div class="form-group">
+                        <label class="newcontainer">Send email to the attendees
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                              </label>
+                </div>
+                <div class="row">
+                        <div class="col-5 col-sm-5">
+                                <button type="submit" class="btn btn-default getfull button-custom">Save</button>
+                        </div>
+                        <div class="col-2 col-sm-2"></div>
+                        <div class="col-5 col-sm-5">
+                                <button type="submit" class="btn btn-default getfull">Reset</button>
+                        </div>
+                </div>
+        </div>
+</div>

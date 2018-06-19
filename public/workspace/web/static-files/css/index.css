@@ -1,0 +1,326 @@
+:root {
+    --app-theme-color: #6A1B9A;
+    --app-back-bar: #7E57C2;
+}
+.mainbody {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-top: 62px;
+    margin-bottom: 62px;
+}
+.contact-body{
+    padding: 10px;
+}
+.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.add-button {
+    border-radius: 100% !important;
+    background-color: var(--app-theme-color) !important;
+    border: none !important;
+}
+.form-control:focus {
+    border-color: var(--app-theme-color) !important;
+    box-shadow: none !important;
+ }
+ .align-right{
+    text-align: right;
+}
+.custom-card{
+    margin-top: 10px !important;
+    border: 1px solid #d3d3d394;
+    box-shadow: 2px 2px 1px #d3d3d394
+}
+.app-header-div{
+    background-color: var(--app-theme-color) !important;
+}
+.app-header-title {
+    color: white;
+    margin-left: 18%;
+    padding-top: 12px;
+}
+.btn-success.focus, .btn-success:focus {
+    box-shadow: none !important;
+}.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.list-item{
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.numberplate{
+    margin-top: 34%;
+}
+.numberplate-header{
+    font-size: 18px;
+}
+
+.number-category {
+    font-weight: bold;
+    font-size: 14px;
+    color: gray;
+}
+.number-phone{
+    font-size: 14px;
+}
+
+.contact-input{
+    border: none !important;
+    border-bottom: 1px solid lightgray !important;
+    border-radius: 0px !important;
+}
+
+.select-custom{
+    height: 37px !important;
+    /* font-size: 12px !important; */
+}
+
+.getfull{
+    width: 100%;
+}
+
+.button-custom{
+    background-color: var(--app-theme-color) !important;
+    color: white !important;
+}
+
+.back-bar{
+    position: fixed;
+    background-color: var(--app-back-bar) !important;
+    height: 40px;
+    margin-top: -21px;
+    width: 113%;
+    margin-left: -20px !important;
+    padding-left: 21px;
+    padding-top: 10px;
+    color: white;
+    z-index: 1040 !important;
+}
+
+.entry-section{
+    margin-top: 40px;
+}
+
+nav a:link {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+nav a:visited {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+nav a:hover {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+nav a:active {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+a:link {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+a:visited {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+a:active {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.bar-selected{
+    height: 5px;
+    background-color: #41105f;
+    margin-top: -20px;
+}
+
+.right-bar{
+    margin-right: -16px;
+}
+
+.left-bar{
+    margin-left: -16px;
+}
+
+.custom-check{
+    margin-right: 10px;
+}
+.custom-check-label{
+    margin-left: 10px;
+}
+
+/* Customize the label (the newcontainer) */
+.newcontainer {
+    margin-left: 10px !important;
+    padding-left: 35px !important;
+    font-size: 1rem !important;
+    display: block;
+    position: relative;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .newcontainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .newcontainer:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .newcontainer input:checked ~ .checkmark {
+    background-color: var(--app-theme-color) !important;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .newcontainer input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .newcontainer .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .card-font{
+      font-size: 12px;
+      color: gray;
+  }
+
+  .card-header-custom{
+      font-weight: bold;
+      color: gray;
+  }
+
+  .card-element{
+    height: 220px;
+    overflow-y: scroll;
+  }
+
+  .attendee-box {
+    border: 1px solid lightgray;
+    margin: 2px;
+    padding: 4px;
+  }
+
+  .card-footer {
+    padding: .75rem 1.25rem;
+    background-color: var(--app-theme-color) !important;
+}
+
+.footer-text{
+    color: white;
+    font-weight: bold;
+}
+
+.sideprofile {
+    height: 100px;
+    margin-top: -61px !important;
+    margin-bottom: 15px;
+    background: linear-gradient(to right, rgb(106, 27, 154), #9C27B0);
+}
+
+.sideuser {
+    margin: 23px;
+    border-radius: 100%;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+}

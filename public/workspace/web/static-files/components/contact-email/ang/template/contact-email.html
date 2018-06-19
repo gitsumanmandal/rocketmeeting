@@ -1,0 +1,28 @@
+<div class="contact-body" ng-controller="myCtrlContactEmail">
+        <div class="row back-bar">
+                <i class="fa fa-arrow-left" ng-click="listContact()"></i>
+        </div>
+        <div class="entry-section">
+                <div class="form-group">
+                        <input type="text" class="form-control contact-input" id="emailto" placeholder="To" name="emailto" />
+                </div>
+                <div class="form-group">
+                        <input type="text" class="form-control contact-input" id="emailcc" placeholder="CC" name="emailcc" />
+                </div>
+                <div class="form-group">
+                        <input type="text" class="form-control contact-input" id="subject" placeholder="Subject" name="subject" />
+                </div>
+                <div class="form-group">
+                        <textarea rows="5" class="form-control contact-input" id="body" placeholder="Body" name="body"></textarea>
+                </div>
+                <div class="row">
+                        <div class="col-5 col-sm-5">
+                                <button type="submit" class="btn btn-default getfull button-custom">Send</button>
+                        </div>
+                        <div class="col-2 col-sm-2"></div>
+                        <div class="col-5 col-sm-5">
+                                <button type="submit" class="btn btn-default getfull" ng-click="listContact()">Cancel</button>
+                        </div>
+                </div>
+        </div>
+</div>

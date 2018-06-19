@@ -1,0 +1,67 @@
+<div class="contact-body" ng-controller="myCtrlContactAdd">
+        <div class="row back-bar">
+                        <i class="fa fa-arrow-left" ng-click="listContact()"></i>
+        </div>
+        <div class="entry-section">
+                <div class="form-group">
+                        <input type="text" class="form-control contact-input" id="name" placeholder="Name" ng-model="name" />
+                </div>
+                <div class="form-group row">
+                        <div class="col-5 col-sm-5">
+                                <select class="form-control contact-input select-custom" id="primaryCateory" placeholder="Category" ng-model="phonePrimaryCategory">
+                                        <option>Work</option>
+                                        <option>Personal</option>
+                                        <option>Home</option>
+                                        <option>Main</option>
+                                        <option>Custom</option>
+                                </select>
+                        </div>
+                        <div class="col-1 col-sm-1"></div>
+                        <div class="col-6 col-sm-6">
+                                <input type="tel" class="form-control contact-input" id="phone" placeholder="Phone" ng-model="phone" />
+                        </div>
+                </div>
+                <div class="form-group row">
+                        <div class="col-5 col-sm-5">
+                                <select class="form-control contact-input select-custom" id="primaryCateory" placeholder="Category" ng-model="emailPrimaryCategory">
+                                        <option>Work</option>
+                                        <option>Personal</option>
+                                        <option>Home</option>
+                                        <option>Main</option>
+                                        <option>Custom</option>`
+                                </select>
+                        </div>
+                        <div class="col-1 col-sm-1"></div>
+                        <div class="col-6 col-sm-6">
+                                <input type="email" class="form-control contact-input" id="email" placeholder="Email" ng-model="email" />
+                        </div>
+                </div>
+                <div class="form-group">
+                        <input type="text" class="form-control contact-input" id="nickng-model" placeholder="Nick Name" ng-model="nickname" />
+                </div>
+                <div class="form-group">
+                        <input type="text" class="form-control contact-input" id="company" placeholder="Company" ng-model="company" />
+                </div>
+                <div class="form-group">
+                        <input type="url" class="form-control contact-input" id="website" placeholder="Website" ng-model="website" />
+                </div>
+                <div class="form-group">
+                        <input type="text" class="form-control contact-input" id="address" placeholder="Address" ng-model="address" />
+                </div>
+                <div class="form-group">
+                        <!-- <input type="date" class="form-control contact-input" id="dob" placeholder="Date of birth" ng-model="dob" /> -->
+                        <input class="form-control contact-input" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="dob" placeholder="Date of birth"
+                                ng-model="dob">
+
+                </div>
+                <div class="row">
+                        <div class="col-5 col-sm-5">
+                                <button type="submit" class="btn btn-default getfull button-custom" ng-click="addContact()">Save</button>
+                        </div>
+                        <div class="col-2 col-sm-2"></div>
+                        <div class="col-5 col-sm-5">
+                                <button type="submit" class="btn btn-default getfull" ng-click="listContact()">Cancel</button>
+                        </div>
+                </div>
+        </div>
+</div>

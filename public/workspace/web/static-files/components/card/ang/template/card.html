@@ -1,0 +1,18 @@
+<div id="mainDiv" class="main-div" ng-controller="myCard">
+        <div class="col-4 content glow-border">
+        <div class="main-header"><p class="main-header-text">{{testType}}</p></div>
+        <div class="row category">
+            <div class="col-7"><img class="course-image" src="{{quesType}}"/></div>
+            <div class="col-5 course-note">
+                No. of Questions  :  {{numberOfQues}}<br/>
+                Total Marks       :  {{totalMarks}}<br/>
+                Time              :  {{totalTime}} Minutes
+            </div>
+        </div>
+        <div><p class="course-desc">{{desc}}</p></div>
+        <div>
+            <button class="test-button" ng-click="testClicked({{$scope.id}})">{{buttonText}}</button>
+            <img class="course-image" src="{{rate}}"/>
+        </div>
+    </div>
+</div>

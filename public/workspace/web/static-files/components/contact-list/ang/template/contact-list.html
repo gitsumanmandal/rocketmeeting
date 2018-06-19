@@ -1,0 +1,56 @@
+<div class="contact-body" ng-controller="myCtrlContactList" ng-init="contactListLoaded()">
+        <div class="row">
+                <div class="row-nulify col-10 col-sm-10">
+                        <input class="form-control" id="myInput" type="text" placeholder="Search.." ng-model="test">
+                </div>
+                <div class="align-right col-2 col-sm-2">
+                        <button type="button" class="add-button btn btn-success" ng-click="addContact()">
+                                <i class="fa fa-plus"></i>
+                        </button>
+                </div>
+        </div>
+        <div ng-repeat="x in names | filter:test" class="card-body row text-dark custom-card">
+                <div class="list-item col-6 col-sm-6">
+                        <label>{{x.name}}</label><br/>
+                        <label>{{x.number}}</label>
+                        <!-- <label>{{x.email}}</label> -->
+                </div>
+                <div class="align-right col-2 col-sm-2">
+                        <button type="button" class="add-button btn btn-success" data-toggle="modal" data-target="#myModal">
+                                <i class="fa fa-phone"></i>
+                        </button>
+                </div>
+                <div class="align-right col-2 col-sm-2">
+                        <button type="button" class="add-button btn btn-success" ng-click="emailContact()">
+                                <!-- ng-click="emailContact()"> -->
+                                <!-- <a href="mailto:someone@example.com?cc=someoneelse@example.com&bcc=andsomeoneelse@example.com&subject=Summer%20Party&body=You%20are%20invited%20to%20a%20big%20summer%20party!"><i class="fa fa-envelope"></i></a> -->
+                                <i class="fa fa-envelope"></i>
+                                <!-- <a href="whatsapp://send?text=abc"><i class="fa fa-envelope"></i></a> -->
+                                <!-- <a href="sms://+14035550185?body=I%27m%20interested%20in%20your%20product.%20Please%20contact%20me."><i class="fa fa-envelope"></i></a> -->
+                                <!-- <a href="whatsapp://send?text=abc"><i class="fa fa-envelope"></i></a> -->
+                        </button>
+                </div>
+                <div class="align-right col-2 col-sm-2">
+                        <button type="button" class="add-button btn btn-success">
+                                <i class="fa fa-pencil"></i>
+                        </button>
+                </div>
+        </div>
+
+        <!-- The Modal -->
+        <div class="modal fade numberplate" id="myModal">
+                <div class="modal-dialog">
+                        <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                        <h4 class="modal-title numberplate-header">Choose Number</h4>
+                                </div>
+                                <!-- Modal body -->
+                                <div class="modal-body" ng-repeat="x in numberplate">
+                                        <label class="number-category">{{x.category}}</label><br/>
+                                        <a class="number-phone" href="tel:{{x.number}}">{{x.number}}</a>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>
