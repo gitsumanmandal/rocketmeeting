@@ -35,7 +35,7 @@ The server is up in cloud9.io (not shared details) <br/>
 Please get the .apk from the root directory (which will be created after you Cordova Build) & install it. Then run the application from mobile
 
 # Summary
-One can use this tool for above-mentioned purpose as well as for education of Full Stack Application Development using Node JS, Express JS
+One can use this tool for above-mentioned purpose as well as for education of Full Stack Application Development using Node JS, Express JS, Angular JS, Cordova, Mobile responsive application building
 
 # Author
 Suman Mandal
