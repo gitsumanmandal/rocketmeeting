@@ -38,7 +38,11 @@ Please get the .apk from the root directory (which will be created after you Cor
 
 Screens are as follows-
 
-
+![screen-1](https://github.com/gitsumanmandal/rocketmeeting/blob/master/screen-shots/screen1.PNG)
+![screen-2](https://github.com/gitsumanmandal/rocketmeeting/blob/master/screen-shots/screen2.PNG)
+![screen-3](https://github.com/gitsumanmandal/rocketmeeting/blob/master/screen-shots/screen3.PNG)
+![screen-4](https://github.com/gitsumanmandal/rocketmeeting/blob/master/screen-shots/screen4.PNG)
+![screen-5](https://github.com/gitsumanmandal/rocketmeeting/blob/master/screen-shots/screen5.PNG)
 
 # Summary
 One can use this tool for above-mentioned purpose as well as for education of Full Stack Application Development using Node JS, Express JS, Angular JS, Cordova, Mobile responsive application building
